@@ -1,0 +1,79 @@
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.scene {
+    width: 240px;
+    height: 440px;
+    border: solid 4px blue;
+    border-radius: 2rem;
+}
+
+.rocket {
+    position: relative;
+    width: 120px;
+    height: 180px;
+    top: 260px;
+    left: 60px;
+}
+
+.rocket-body {
+    position: relative;
+    width: 45px;
+    height: 135px;
+    background-color: rgb(28, 160, 142);
+    border-radius: 60%;
+    top: 20px;
+    left: 35px;
+}
+
+.rocket-tip {
+    width: 0rem;
+    height: 0rem;
+    border-bottom: 40px solid  rgb(57, 107, 96);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    top:5px;
+    left: 37px;
+}
+
+.rocket-engine {
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    top: 130px;
+    left: 40px;
+    border-left: 9px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 30px solid black;
+}
+
+.wing {
+    background-color: blueviolet;
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    top: 130px;
+}
+
+.wing1 {
+    background-color: rgb(57, 107, 96);
+    left: 23px;
+    clip-path: polygon(60% 0%, 100% 55%, 0% 100%);
+}
+
+.wing2 {
+    background-color: rgb(57, 107, 96);
+    left: 60px;
+    clip-path: polygon(65% 0%, 100% 55%, 0% 100%);
+    width: 3px !important;
+}
+
+.wing3 {
+    background-color: rgb(57, 107, 96);
+    left: 69px;
+    clip-path: polygon(20% 0%, 0% 55%, 100% 100%);
+}
